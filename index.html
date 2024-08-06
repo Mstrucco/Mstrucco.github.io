@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .Table {
+          background-color: aquamarine;
+          color: purple;
+          font-family: Arial;
+          ;
+        }
+        .TableTitle {
+          background-color: aquamarine;
+          color: purple;
+          font-family: Arial;
+          font-size: 150%;
+          ;
+        }
+        </style>
+</head>
+<body>
+    <div>
+        <h2>Información Relevante</h2>
+        <ul style="font-family: Calibri">
+            <li>Nombre: Matías Sebastian Trucco BAlocchi</li>
+            <li>Major: Ingenieria Civil Ciencias de la Computación</li>
+            <li>Año de Entrada: 2022</li>
+            <li><a href="https://github.com/Mstrucco/Mstrucco.github.io.git">Link Github</a></li>
+            <li>Resumen Personal: Me llamo Matías Trucco estudio ingeniera civil en computación en la universidad de los andes desde el 2022, que fue cuando me cambia de la universidad catolica en la que estuve estudiando en college por cerca de 3 años</li>
+        </ul>
+        <table class = "Table">
+            <tr class = "TableTitle">
+                <td>Skill</td>
+                <td>Level</td>
+            </tr>
+            <tr>
+              <td>Python</td>
+              <td>Advance</td>
+            </tr>
+            <tr>
+              <td>Java Script</td>
+              <td>None</td>
+            </tr>
+            <tr>
+                <td>Html/CSS</td>
+                <td>Introductory</td>
+              </tr>
+              <tr>
+                <td>Git</td>
+                <td>Basic</td>
+              </tr>
+              <tr>
+                <td>Excel</td>
+                <td>Basic</td>
+              </tr>
+              <tr>
+                <td>SQL</td>
+                <td>Basic</td>
+              </tr>
+              <tr>
+                <td>Ruby</td>
+                <td>None</td>
+              </tr>
+              <tr>
+                <td>English</td>
+                <td>Advance</td>
+              </tr>
+              <tr>
+                <td>Spanish</td>
+                <td>Native</td>
+              </tr>
+          </table>
+    </div>
+    <form>
+        <label for="Cambio">Cambia Cosa:</label>
+        <input type="text" id="Cambio"><br><br>
+        <button type="button" onclick="document.getElementById('displayText').innerText = document.getElementById('Cambio').value">Actualizar</button>
+        <p id="displayText">Aqui cambia al usar el button con lo escrito en el el cambia cosa</p>
+      </form>
+    
+    
+</body>
+</html>
