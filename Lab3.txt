@@ -1,0 +1,19 @@
+1° As a user, I want to have a profile where I can configure my user settings, so that I can adjust certain features and manage my account information.
+
+2° As a user, I want to create posts with a minimum length of 1 word, so that I can share my thoughts with others.
+
+3° As a user, I want to view posts from other users and interact with them, so that I can engage with the community and participate in discussions.
+
+4° As a user, I want to view posts from other users, so that I can stay updated on what others are sharing.
+
+5° As a user, I want to be able to comment on posts, so that I can share my thoughts and start conversations with other users.
+
+6° As a user, I want to like posts from other users, so that I can express my appreciation or agreement with the content shared.
+
+7° As a user, I want to tag other users in posts and comments, so that I can directly involve them in conversations or content.
+
+8° As a user, I want posts to be able to accept links, photos, and other media, so that I can share diverse types of content.
+
+9° As a user, I want to search for posts using specific hashtags, so that I can find content related to my interests more easily.
+
+10° As a user, I want to view the most used hashtags of the day, so that I can stay updated on trending topics and join relevant discussions.
